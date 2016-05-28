@@ -1,6 +1,7 @@
 Testing external APIs:
 
 Using: 
-Sunlight Foundation
-VCR
+Sunlight Foundation API,
+VCR,
 Webmock
+on a Rails Framework
