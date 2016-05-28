@@ -1,6 +1,7 @@
 Testing external APIs:
 
 Using: 
+Minitest,
 Sunlight Foundation API,
 VCR,
 Webmock
