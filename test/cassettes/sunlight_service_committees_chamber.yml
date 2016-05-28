@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://congress.api.sunlightfoundation.com/committees?apikey=de62c61871ec4130971b3c05e33c2caa&chamber=senate
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Sat, 28 May 2016 20:20:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"chamber":"senate","committee_id":"SSGA19","name":"Regulatory
+        Affairs and Federal Management","parent_committee_id":"SSGA","subcommittee":true},{"chamber":"senate","committee_id":"SSGA18","name":"Federal
+        Spending Oversight and Emergency Management","parent_committee_id":"SSGA","subcommittee":true},{"chamber":"senate","committee_id":"SSGA16","name":"the
+        Efficiency and Effectiveness of Federal Programs and the Federal Workforce","parent_committee_id":"SSGA","subcommittee":true},{"chamber":"senate","committee_id":"SSGA15","name":"Financial
+        and Contracting Oversight","parent_committee_id":"SSGA","subcommittee":true},{"chamber":"senate","committee_id":"SSGA17","name":"Emergency
+        Management, Intergovernmental Relations, and the District of Columbia","parent_committee_id":"SSGA","subcommittee":true},{"chamber":"senate","committee_id":"SSGA01","name":"Permanent
+        Subcommittee on Investigations","parent_committee_id":"SSGA","subcommittee":true},{"chamber":"senate","committee_id":"SSFR14","name":"State
+        Department and USAID Management, International Operations, and Bilateral International
+        Development","parent_committee_id":"SSFR","subcommittee":true},{"chamber":"senate","committee_id":"SSFR15","name":"Multilateral
+        International Development, Multilateral Institutions, and International Economic,
+        Energy, and Environmental Policy","parent_committee_id":"SSFR","subcommittee":true},{"chamber":"senate","committee_id":"SSFR13","name":"International
+        Operations and Organizations, Human Rights, Democracy, and Global Women''s
+        Issues","parent_committee_id":"SSFR","subcommittee":true},{"chamber":"senate","committee_id":"SSFR12","name":"International
+        Development and Foreign Assistance, Economic Affairs, International Environmental
+        Protection, and Peace Corps","parent_committee_id":"SSFR","subcommittee":true},{"chamber":"senate","committee_id":"SSFI11","name":"Taxation
+        and IRS Oversight","parent_committee_id":"SSFI","subcommittee":true},{"chamber":"senate","committee_id":"SSFI14","name":"Fiscal
+        Responsibility and Economic Growth","parent_committee_id":"SSFI","subcommittee":true},{"chamber":"senate","committee_id":"SSEV18","name":"Oversight","parent_committee_id":"SSEV","subcommittee":true},{"chamber":"senate","committee_id":"SSEV16","name":"Green
+        Jobs and the New Economy","parent_committee_id":"SSEV","subcommittee":true},{"chamber":"senate","committee_id":"SSCM24","name":"Space,
+        Science, and Competitiveness","parent_committee_id":"SSCM","subcommittee":true},{"chamber":"senate","committee_id":"SSCM27","name":"Tourism,
+        Competitiveness, and Innovation","parent_committee_id":"SSCM","subcommittee":true},{"chamber":"senate","committee_id":"SSAF17","name":"Livestock,
+        Marketing and Agriculture Security","parent_committee_id":"SSAF","subcommittee":true},{"chamber":"senate","committee_id":"SSAF16","name":"Nutrition,
+        Specialty Crops, and Agricultural Research","parent_committee_id":"SSAF","subcommittee":true},{"chamber":"senate","committee_id":"SSAF15","name":"Rural
+        Development and Energy","parent_committee_id":"SSAF","subcommittee":true},{"chamber":"senate","committee_id":"SSAF14","name":"Conservation,
+        Forestry and Natural Resources","parent_committee_id":"SSAF","subcommittee":true}],"count":97,"page":{"count":20,"per_page":20,"page":1}}'
+    http_version: 
+  recorded_at: Sat, 28 May 2016 20:21:26 GMT
+recorded_with: VCR 3.0.3

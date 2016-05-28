@@ -10,6 +10,10 @@ class SunlightService
     parse(connection.get("legislators", params))
   end
 
+  def committees(params)
+    parse(connection.get("committees", params))
+  end
+
   def parse(response)
     JSON.parse(response.body, symbolize_names: :true)[:results]
   end
